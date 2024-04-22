@@ -1,5 +1,5 @@
-# [TPAMI 2024] Benchmark for VG-based Detection and Chart Understanding (VG-DCU) 
-## Introduction
+# :fire: [TPAMI 2024] Benchmark for VG-based Detection and Chart Understanding (VG-DCU) 
+##  :scroll: Introduction
 
 <p align="center">
 <img src="figures\RGvsVG.png" alt="Differece" width="80%">
@@ -34,7 +34,6 @@ The proposed VG-based chart dataset contains two subsets:
 |                  | Vega-Lite     |            | Plotly     |            |
 |------------------|--------------|------------|------------|------------|
 | Chart Type       | Train        | Test       | Train      | Test       |
-|------------------|--------------|------------|------------|------------|
 | Area             | 0            | 0          | 87         | 22         |
 | Bar (Vert. \& Hor.) | 2,400       | 601        | 1,704      | 426        |
 | Box (Vert. \& Hor.)| 0           | 0          | 482        | 121        |
@@ -46,7 +45,28 @@ The proposed VG-based chart dataset contains two subsets:
 | Violin           | 0            | 0          | 82         | 21         |
 | Sankey           | 0            | 0          | 21         | 6          |
 | Total            | 8,544        | 2,138      | 3,609      | 906        |
-
+**Dataset Analysis **
+(a) The distribution map of categories and number of bbox instances. (b) The width-to-height ratio distribution of class and box instances
 <p align="center">
 <img src="figures\datasetanalysis.png" alt="Differece" width="80%">
 </p>
+
+## Download
+We will provide both Baidu Driver and One Driver for downloading.
+
+## Citation
+BibTex:
+```
+@inproceedings{yolat24,
+title={{Hierarchical Recognizing Vector Graphics and A New Chart-based Vector Graphics Dataset}},
+author={Shuguang Dou, Xinyang Jiang, Lu Liu, Lu Ying, Caihua Shan, Yifei Shen, Xuanyi Dong, Yun Wang, Dongsheng Li, Cairong Zhao},
+booktitle={IEEE Transactions on Pattern Analysis and Machine Intelligence},
+volume={},
+number={},
+pages={},
+year={2024}}
+```  
+Please do consider :star2: star our project to share with your community if you find this repository helpful!
+
+# Related Project
+[YOLaT-VectorGraphicsRecognition](https://github.com/microsoft/YOLaT-VectorGraphicsRecognition)
