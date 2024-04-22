@@ -5,7 +5,7 @@
 <img src="figures\RGvsVG.png" alt="Differece" width="80%">
 </p>
 
-Rendering vector graphics into pixel arrays can result in significant memory costs or loss of information, as demonstrated in above Figure 1. We propose the first large-scale chart-based vector graphics dataset focusing on VG-based Detection and Chart Understanding. 
+Rendering vector graphics into pixel arrays can result in significant memory costs or loss of information, as shown in above Figure 1. We propose the first large-scale chart-based vector graphics dataset focusing on VG-based Detection and Chart Understanding. 
 
 | Task                             | Dataset                            | Type | Source            | \# Chart Type | \# Nums  |
 |----------------------------------|------------------------------------|------|-------------------|---------------|----------|
@@ -19,7 +19,7 @@ Rendering vector graphics into pixel arrays can result in significant memory cos
 |                                  | SESYD-Diagrams  | VG   | Synthetic         | -             | 1,000    |
 | VG Detection & Chart-to-Table    | VG-DCU(Ours)                      | VG   | Synthetic \& Real | 16            | 15,197   |
 
-The currently available public vector graphics datasets are limited to the two small datasets indicated in Table and lacks the complexity necessary for the advancement of vector image detection. In contrast, our proposed dataset comprises over 10,000 vector charts utilizing diverse primitives with rich attributes.
+The currently available public vector graphics datasets are limited to the two small datasets indicated in the Table and lack the complexity necessary for the advancement of vector image detection. In contrast, our proposed dataset comprises over 10,000 vector charts utilizing diverse primitives with rich attributes.
 ## Dataset Construction
 <p align="center">
 <img src="figures\types.png" alt="Differece" width="80%">
@@ -46,3 +46,7 @@ The proposed VG-based chart dataset contains two subsets:
 | Violin           | 0            | 0          | 82         | 21         |
 | Sankey           | 0            | 0          | 21         | 6          |
 | Total            | 8,544        | 2,138      | 3,609      | 906        |
+
+<p align="center">
+<img src="figures\datasetanalysis.png" alt="Differece" width="80%">
+</p>
