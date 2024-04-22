@@ -19,9 +19,13 @@ Rendering vector graphics into pixel arrays can result in significant memory cos
 |                                  | SESYD-Diagrams  | VG   | Synthetic         | -             | 1,000    |
 | VG Detection & Chart-to-Table    | VG-DCU(Ours)                      | VG   | Synthetic \& Real | 16            | 15,197   |
 
-The currently available public vector graphics datasets are limited to the two small datasets indicated in Table~\ref{tab:datasetComparson}. Apart from their small scale, these preceding datasets exclusively employ two primitive types: \texttt{<line>} and \texttt{<path>}, characterized by monotonous attributes such as solely black color. Consequently, the previous dataset lacks the complexity necessary for the advancement of vector image detection. In contrast, our proposed dataset comprises over 10,000 vector charts utilizing diverse primitives with rich attributes.
+The currently available public vector graphics datasets are limited to the two small datasets indicated in Table and lacks the complexity necessary for the advancement of vector image detection. In contrast, our proposed dataset comprises over 10,000 vector charts utilizing diverse primitives with rich attributes.
+## Dataset Construction
 
 
+
+
+## Dataset Statistic
 
 
 |                  | Vega-Lite     |            | Plotly     |            |
