@@ -21,12 +21,15 @@ Rendering vector graphics into pixel arrays can result in significant memory cos
 
 The currently available public vector graphics datasets are limited to the two small datasets indicated in Table and lacks the complexity necessary for the advancement of vector image detection. In contrast, our proposed dataset comprises over 10,000 vector charts utilizing diverse primitives with rich attributes.
 ## Dataset Construction
-
-
-
+<p align="center">
+<img src="figures\types.png" alt="Differece" width="80%">
+</p>
+The proposed VG-based chart dataset contains two subsets:
++ **Vega-Lite**: a synthetic subset generated with scripts and fictional data
++ **Plotly**a real-world subset drawn by users. 
 
 ## Dataset Statistic
-
+**Dataset Split**: We collect 10,682 synthetic and 4,515 real charts in the VG-DCU dataset, by default using 80% as the training set and 20% as the test set. We divide the training and test set so that objects from the same category are included in both the training and testing set. 
 
 |                  | Vega-Lite     |            | Plotly     |            |
 |------------------|--------------|------------|------------|------------|
