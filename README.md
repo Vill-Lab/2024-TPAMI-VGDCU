@@ -25,7 +25,9 @@ The currently available public vector graphics datasets are limited to the two s
 <img src="figures\types.png" alt="Differece" width="80%">
 </p>
 The proposed VG-based chart dataset contains two subsets:
+
 + **Vega-Lite**: a synthetic subset generated with scripts and fictional data
+
 + **Plotly**a real-world subset drawn by users. 
 
 ## Dataset Statistic
@@ -45,8 +47,11 @@ The proposed VG-based chart dataset contains two subsets:
 | Violin           | 0            | 0          | 82         | 21         |
 | Sankey           | 0            | 0          | 21         | 6          |
 | Total            | 8,544        | 2,138      | 3,609      | 906        |
+
 **Dataset Analysis **
+
 (a) The distribution map of categories and number of bbox instances. (b) The width-to-height ratio distribution of class and box instances
+
 <p align="center">
 <img src="figures\datasetanalysis.png" alt="Differece" width="80%">
 </p>
