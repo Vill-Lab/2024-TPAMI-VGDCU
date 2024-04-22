@@ -5,7 +5,7 @@
 <img src="figures\RGvsVG.png" alt="Differece" width="80%">
 </p>
 
-Rendering vector graphics into pixel arrays can result in significant memory costs or loss of information, as demonstrated in above Figure 1. Additionally, this process discards high-level structural information within the primitives, which is critical for recognition tasks such as identifying corners and contours. To summarize, We propose the first large-scale chart-based vector graphics dataset focusing on VG-based Detection and Chart Understanding. 
+Rendering vector graphics into pixel arrays can result in significant memory costs or loss of information, as demonstrated in above Figure 1. We propose the first large-scale chart-based vector graphics dataset focusing on VG-based Detection and Chart Understanding. 
 
 | Task                             | Dataset                            | Type | Source            | \# Chart Type | \# Nums  |
 |----------------------------------|------------------------------------|------|-------------------|---------------|----------|
