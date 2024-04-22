@@ -28,7 +28,7 @@ The proposed VG-based chart dataset contains two subsets:
 
 + **Vega-Lite**: a synthetic subset generated with scripts and fictional data
 
-+ **Plotly**a real-world subset drawn by users. 
++ **Plotly**:a real-world subset drawn by users. 
 
 ## Dataset Statistic
 **Dataset Split**: We collect 10,682 synthetic and 4,515 real charts in the VG-DCU dataset, by default using 80% as the training set and 20% as the test set. We divide the training and test set so that objects from the same category are included in both the training and testing set. 
@@ -48,7 +48,7 @@ The proposed VG-based chart dataset contains two subsets:
 | Sankey           | 0            | 0          | 21         | 6          |
 | Total            | 8,544        | 2,138      | 3,609      | 906        |
 
-**Dataset Analysis **
+**Dataset Analysis**
 
 (a) The distribution map of categories and number of bbox instances. (b) The width-to-height ratio distribution of class and box instances
 
