@@ -57,7 +57,11 @@ The proposed VG-based chart dataset contains two subsets:
 </p>
 
 ## Download
-We will provide both Baidu Driver and One Driver for downloading.
+We will provide both Baidu Drive and Google Drive for downloading.
+
++ **Vega-Lite**: [Google Drive](https://drive.google.com/file/d/17LcPDT-l3LeyX5nECo8OZ3edFr1XlO88/view?usp=sharing)
+
++ **Plotly**: [Google Drive](https://drive.google.com/file/d/1XPzsjCry92uynoDSap7XXhbxM73OReY9/view?usp=sharing) 
 
 ## Citation
 BibTex:
